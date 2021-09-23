@@ -1,5 +1,6 @@
 from program.program import Program
 
+
 class Memory:
 
     def __init__(self, size: int) -> None:
