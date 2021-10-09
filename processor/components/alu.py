@@ -19,4 +19,11 @@ class ALU:
         if operation == ALUOperation.ADD:
             return operand1 + operand2
 
+        if operation == ALUOperation.SUB:
+            return operand1 - operand2
+         
+        if operation == ALUOperation.AND:
+            return operand1 and operand2
 
+        if operation == ALUOperation.OR:
+            return operand1 or operand2

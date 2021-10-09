@@ -9,3 +9,10 @@ class InstructionSet(Enum):
     AND = "AND"
     OR = "OR"
     BEQ = "BEQ"
+
+
+class Instruction:
+
+    def __init__(self, type: str, execution) -> None:
+        self.type = type
+        self.execution = execution
